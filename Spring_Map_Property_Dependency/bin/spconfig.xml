@@ -1,0 +1,45 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="id1" class="com.yash.WelcomeBean">
+		<property name="employeeData">
+			<map>
+				<entry key="k1">
+					<value>MI Note 5</value>
+				</entry>
+				
+				<entry key="k2">
+					<value>Samsung note 5</value>
+				</entry>
+				
+				<entry key="k3">
+					<value>Nokia Note 5</value>
+				</entry>
+				
+				<entry key="k4">
+					<value>Lava Note 5</value>
+				</entry>
+				
+				<entry key="k5">
+					<value>Apple X10</value>
+				</entry>
+				
+			</map>
+		</property>
+	</bean>
+	
+	<bean id="id2" class="com.yash.WelcomeBean">
+		<property name="employeeData">
+			<map>
+				<entry key="l1">
+					<value>Xblade</value>
+				</entry>
+				
+				<entry key="l2">
+					<value>Avengers</value>
+				</entry>
+			</map>
+		</property>
+	</bean>
+</beans>

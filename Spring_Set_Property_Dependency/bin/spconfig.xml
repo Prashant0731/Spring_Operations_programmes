@@ -1,0 +1,22 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="id1" class="com.yash.WelcomeBean">
+		<property name="employeeData">
+			<set>
+				<value>millienum</value>			
+				<value>java</value>			
+				<value>c++</value>			
+				<value>php</value>			
+				<value>oracle</value>
+				<value>html</value>
+				<value>C++</value>
+				<value>MySQL</value>	
+				<value>MySQL</value>	
+				<value>java</value>	
+				<value>v193</value>
+			</set>
+		</property>
+	</bean>
+</beans>
