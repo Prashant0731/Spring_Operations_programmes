@@ -1,0 +1,17 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+
+<beans>
+	<bean id="id1" class="com.yash.Car">
+		<property name="fuelType" value="Diesel"/>
+		<property name="maxSpeed" value="120"/>
+	</bean>
+	
+	<bean id="id2" class="com.yash.Bus">
+		<property name="maxSpeed" value="80"></property>
+	</bean>
+	
+
+	
+</beans>

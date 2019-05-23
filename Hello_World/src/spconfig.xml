@@ -1,0 +1,19 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="id1" class="com.yash.WelcomeBean">
+		<property name="message" value=" Welcome to spring fw "></property>
+		<property name="number" value="8305968"></property>
+	</bean>
+	
+	<bean id="id2" class="com.yash.WelcomeBean">
+		<property name="message" value=" My name is prashant chauhan "></property>
+			<property name="number" value="8989"></property>
+	</bean>
+	
+	<bean id="id3" class="com.yash.WelcomeBean">
+		<property name="message" value=" My designation is software  developer "></property>
+			<property name="number" value="544655"></property>
+	</bean>
+</beans>
